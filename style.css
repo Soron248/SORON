@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gold;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+    padding: 50px;
+      }
+.myimg{
+    height:280px;
+    width:200px;
+    border: 3px solid red;
+    border-radius: 5px;
+    float: left;
+}
+.hdr1{
+    float: left;
+    padding: 50px;
+}
+.hdr2{
+    float: right;
+    padding: 40px;
+}
+          .hdr2 a{
+               text-decoration: none;
+               color: blue;
+               font-weight: bold;
+          }
+          .hdr2 a:hover{
+               text-decoration: underline;
+               color:tomato;
+          }
+          .hdr2 p{
+              color: white;
+          }
+.div-clear{
+    clear: both;
+}
+hr{
+    border:solid white;
+    width: 100%;
+    margin: 3px auto;
+    border-bottom: none;
+}
+h1,h2,h3,h4,h5,h6{
+    color: red;
+}
+
+
+
+#prsnl1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content{
+    margin: 0 auto;
+}
+.div-left{
+        width: 30%;
+        float: left;
+
+}
+.div-right{
+        width: 70%;
+        float: right;
+        color: white;
+        text-align: justify;
+
+}
+.div-right a{
+    text-decoration: none;
+    color: blue;
+}
+.div-right a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.common-hr{
+    border: solid white 1px;
+    border-bottom: none;
+}
+
+
+.bottom{
+    background-color:white;
+    text-align: center;
+    padding: 10px;
+}
+.bottom a{
+    color: blue;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+.bottom p{
+    color: black;
+    margin-top: 20px;
+    font-size: 12px;
+}
